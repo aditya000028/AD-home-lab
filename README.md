@@ -46,7 +46,7 @@ This guide walks through setting up a basic Active Directory (AD) lab environmen
    - CPU: 2 cores
 7. Finish setup and power on VM
 
-Image
+<img width="435" height="417" alt="Screenshot 2026-03-20 183136" src="https://github.com/user-attachments/assets/01943261-5efd-446b-8a22-56d973033412" />
 
 ---
 
@@ -58,7 +58,7 @@ Image
 3. Complete installation
 4. Set Administrator password
 
-Image
+<img width="1027" height="773" alt="Screenshot 2026-03-20 185512" src="https://github.com/user-attachments/assets/f720aab4-5719-41f2-a096-6453ba8a9261" />
 
 ---
 
@@ -76,7 +76,7 @@ Image
       - Default Gateway: `192.168.106.2`
       - Preferred DNS: `192.168.106.100` (same as server)
 
-Image
+<img width="1172" height="917" alt="Screenshot 2026-03-20 191625" src="https://github.com/user-attachments/assets/3e9adb1b-aa87-4f3a-8b04-bd5de1cc0c57" />
 
 ---
 
@@ -91,7 +91,7 @@ Note that we cannot change the name of the server once we promote it to the doma
    - `DC01`
 4. Restart the server
 
-Image
+<img width="1181" height="920" alt="Screenshot 2026-03-20 191831" src="https://github.com/user-attachments/assets/a387569c-ca6c-453a-b84a-4086cecbc518" />
 
 ---
 
@@ -105,7 +105,7 @@ Image
    - Note that you may get a dialog to install additional features that are requried for AD DS. Please select Add Features
 6. Click Next → Install
 
-Image
+<img width="1153" height="662" alt="Screenshot 2026-03-20 193201" src="https://github.com/user-attachments/assets/acc85195-37ea-4d24-a4ac-3c78d57ff9a3" />
 
 ---
 
@@ -122,7 +122,7 @@ Image
 5. Continue with defaults
 6. Click Install
 
-Image
+<img width="1408" height="686" alt="Screenshot 2026-03-20 194341" src="https://github.com/user-attachments/assets/67dc134d-2c78-407d-97be-a5ec66d58987" />
 
 ---
 
@@ -135,7 +135,7 @@ Image
    - Active Directory Users and Computers
 4. Verify domain is created
 
-Image
+<img width="765" height="538" alt="Screenshot 2026-03-20 195652" src="https://github.com/user-attachments/assets/6a00861a-f2d7-4cf6-8454-b06c29f45d49" />
 
 ---
 
@@ -143,14 +143,15 @@ Image
 
 1. Create another VM in VMware
 2. Use Windows 11 ISO
-3. Create a password for the virtual trusted platform module (TPM) for the VM
-4. Configure:
+3. Name it `Client01`
+4. Create a password for the virtual trusted platform module (TPM) for the VM
+5. Configure:
    - RAM: 2–4 GB
    - Disk: 64 GB
-5. Complete installation of Windows 11 by following the wizard
-6. Optionally install the VMware Tools to improve VM performance. This can be done by right clicking the VM in VMware and then clicking install VMware tools.
+6. Complete installation of Windows 11 by following the wizard
+7. Optionally install the VMware Tools to improve VM performance. This can be done by right clicking the VM in VMware and then clicking install VMware tools.
 
-Image
+<img width="420" height="405" alt="Screenshot 2026-03-22 161215" src="https://github.com/user-attachments/assets/14162200-4778-4d4e-b4e7-f437e9449afa" />
 
 ---
 
@@ -179,7 +180,7 @@ Image
 6. Enter domain admin credentials
 7. Restart when prompted
 
-Image
+<img width="402" height="460" alt="Screenshot 2026-03-22 162823" src="https://github.com/user-attachments/assets/36b36104-6925-4bb7-b37c-acb232081fa1" />
 
 ---
 
@@ -214,6 +215,3 @@ With Active Directory Domain Services (AD DS) configured, the Domain Administrat
   - Create shared folders on servers
   - Implement least privilege access control
 
-## Summary
-
-This Active Directory lab demonstrates how centralized identity and access management is implemented in real-world environments. It provides hands-on experience with core administrative tasks that are essential for IT Support, System Administration, and Security Analyst roles.
