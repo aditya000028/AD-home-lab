@@ -41,9 +41,7 @@ This guide walks through setting up a basic Active Directory (AD) lab environmen
 5. Configure VM:
    - Name: `DC01`
    - Disk Size: 60 GB
-6. Customize Hardware:
    - Memory: 2–4 GB RAM
-   - CPU: 2 cores
 7. Finish setup and power on VM
 
 <img width="435" height="417" alt="Screenshot 2026-03-20 183136" src="https://github.com/user-attachments/assets/01943261-5efd-446b-8a22-56d973033412" />
@@ -65,7 +63,7 @@ This guide walks through setting up a basic Active Directory (AD) lab environmen
 ## Step 3: Configure Static IP Address
 
 1. Open:
-   - Go into Settings → Network & internet → Ethernet
+   - Settings → Network & internet → Ethernet
 2. Edit 'IP assignment' setting from 'Automatic (DHCP)' to 'Manual'
 3. Select Internet Protocol Version 4 (IPv4)
 4. We need to configure a static IP address for the domain controller and not use DHCP. This is because you need to be able to allow your users/clients to always be able to find the domain controller's IP, without DHCP changing it.
